@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A60C19591DFEE1BC00CF1F7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C19581DFEE1BC00CF1F7F /* AppDelegate.swift */; };
-		A60C195B1DFEE1BC00CF1F7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C195A1DFEE1BC00CF1F7F /* ViewController.swift */; };
+		A60C195B1DFEE1BC00CF1F7F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C195A1DFEE1BC00CF1F7F /* MainViewController.swift */; };
 		A60C195E1DFEE1BC00CF1F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60C195C1DFEE1BC00CF1F7F /* Main.storyboard */; };
 		A60C19611DFEE1BC00CF1F7F /* BenchAssistant_BasketballTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A60C195F1DFEE1BC00CF1F7F /* BenchAssistant_BasketballTracker.xcdatamodeld */; };
 		A60C19631DFEE1BC00CF1F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60C19621DFEE1BC00CF1F7F /* Assets.xcassets */; };
 		A60C19661DFEE1BC00CF1F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60C19641DFEE1BC00CF1F7F /* LaunchScreen.storyboard */; };
+		A60C196E1DFEE8D200CF1F7F /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60C196D1DFEE8D200CF1F7F /* TeamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A60C19551DFEE1BC00CF1F7F /* BenchAssistant-BasketballTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BenchAssistant-BasketballTracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60C19581DFEE1BC00CF1F7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A60C195A1DFEE1BC00CF1F7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A60C195A1DFEE1BC00CF1F7F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A60C195D1DFEE1BC00CF1F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A60C19601DFEE1BC00CF1F7F /* BenchAssistant_BasketballTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BenchAssistant_BasketballTracker.xcdatamodel; sourceTree = "<group>"; };
 		A60C19621DFEE1BC00CF1F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A60C19651DFEE1BC00CF1F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60C19671DFEE1BC00CF1F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60C196D1DFEE8D200CF1F7F /* TeamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TeamViewController.swift; path = ../TeamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				A60C19581DFEE1BC00CF1F7F /* AppDelegate.swift */,
-				A60C195A1DFEE1BC00CF1F7F /* ViewController.swift */,
+				A60C196D1DFEE8D200CF1F7F /* TeamViewController.swift */,
+				A60C195A1DFEE1BC00CF1F7F /* MainViewController.swift */,
 				A60C195C1DFEE1BC00CF1F7F /* Main.storyboard */,
 				A60C19621DFEE1BC00CF1F7F /* Assets.xcassets */,
 				A60C19641DFEE1BC00CF1F7F /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A60C195B1DFEE1BC00CF1F7F /* ViewController.swift in Sources */,
+				A60C195B1DFEE1BC00CF1F7F /* MainViewController.swift in Sources */,
+				A60C196E1DFEE8D200CF1F7F /* TeamViewController.swift in Sources */,
 				A60C19591DFEE1BC00CF1F7F /* AppDelegate.swift in Sources */,
 				A60C19611DFEE1BC00CF1F7F /* BenchAssistant_BasketballTracker.xcdatamodeld in Sources */,
 			);
@@ -306,6 +310,7 @@
 				A60C196C1DFEE1BC00CF1F7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
